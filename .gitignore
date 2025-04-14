@@ -24,3 +24,7 @@ go.work.sum
 # env file
 .env
 screenshot.png
+.DS_Store
+.goreleaser.yaml
+.golangci.yml
+webscreenshot
