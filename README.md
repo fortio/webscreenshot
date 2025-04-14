@@ -24,8 +24,9 @@ Or brew custom tap `brew install fortio/tap/webscreenshot`
 
 ## Usage
 ```bash
-webscreenshot [-delay duration] URL > screenshot.png
+webscreenshot [-delay duration -width w -height h] URL > screenshot.png
 ```
+(`webscreenshot help` for all the options)
 
 e.g
 ```bash
