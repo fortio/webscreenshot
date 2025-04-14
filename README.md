@@ -1,10 +1,26 @@
 # webscreenshot
-Take a screenshot of a Web page after giving it a delay for rendering
+
+[![Go Reference](https://pkg.go.dev/badge/github.com/webscreenshot.svg)](https://pkg.go.dev/github.com/webscreenshot)
+[![Go Report Card](https://goreportcard.com/badge/github.com/webscreenshot)](https://goreportcard.com/report/github.com/webscreenshot)
+[![GitHub Release](https://img.shields.io/github/release/fortio/webscreenshot.svg?style=flat)](https://github.com/fortio/webscreenshot/releases/)
+[![govulncheck](https://img.shields.io/badge/govulncheck-No%20vulnerabilities-success)](https://github.com/fortio/webscreenshot/actions/workflows/gochecks.yml)
+[![golangci-lint](https://img.shields.io/badge/golangci%20lint-No%20issue-success)](https://github.com/fortio/webscreenshot/actions/workflows/gochecks.yml)
+
+Take a (headless) screenshot of a Web page after giving it a delay for rendering
 
 ## Install
-```bash
+
+using golang 1.21+
+
+```shell
 go install github.com/fortio/webscreenshot@latest
 ```
+
+You can also download one of the many binary [releases](https://github.com/fortio/webscreenshot/releases)
+
+We publish a multi architecture docker image (linux/amd64, linux/arm64) `docker run fortio/webscreenshot`
+
+Or brew custom tap `brew install fortio/tap/webscreenshot`
 
 ## Usage
 ```bash
