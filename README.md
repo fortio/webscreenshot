@@ -1,12 +1,11 @@
 # webscreenshot
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/webscreenshot.svg)](https://pkg.go.dev/github.com/webscreenshot)
-[![Go Report Card](https://goreportcard.com/badge/github.com/webscreenshot)](https://goreportcard.com/report/github.com/webscreenshot)
+[![Go Report Card](https://goreportcard.com/badge/github.com/fortio/webscreenshot)](https://goreportcard.com/report/github.com/fortio/webscreenshot)
 [![GitHub Release](https://img.shields.io/github/release/fortio/webscreenshot.svg?style=flat)](https://github.com/fortio/webscreenshot/releases/)
-[![govulncheck](https://img.shields.io/badge/govulncheck-No%20vulnerabilities-success)](https://github.com/fortio/webscreenshot/actions/workflows/gochecks.yml)
-[![golangci-lint](https://img.shields.io/badge/golangci%20lint-No%20issue-success)](https://github.com/fortio/webscreenshot/actions/workflows/gochecks.yml)
+[![govulncheck](https://img.shields.io/badge/govulncheck-No%20vulnerabilities-success)](https://github.com/fortio/webscreenshot/actions/workflows/include.yml)
+[![golangci-lint](https://img.shields.io/badge/golangci%20lint-No%20issue-success)](https://github.com/fortio/webscreenshot/actions/workflows/include.yml)
 
-Take a (headless) screenshot of a Web page after giving it a delay for rendering
+Take a (headless) screenshot of a Web page after giving it a delay for rendering (so dynamic pages can easily get captured).
 
 ## Install
 
