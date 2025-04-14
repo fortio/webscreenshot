@@ -30,12 +30,21 @@ func Main() int {
 		// chromedp.WithDebugf(log.Printf),
 	)
 	defer cancel()
+	// Handle ^C gracefully
+	go func() {
+		cli.UntilInterrupted()
+		cancel()
+	}()
 
 	err := chromedp.Run(ctx, chromedp.Tasks{
 		chromedp.Navigate(url),
 		chromedp.ActionFunc(func(ctx context.Context) error {
-			time.Sleep(delay)
-			return nil
+			select {
+			case <-time.After(delay):
+				return nil
+			case <-ctx.Done():
+				return ctx.Err()
+			}
 		}),
 		chromedp.FullScreenshot(&res, 100),
 	})
