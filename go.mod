@@ -3,8 +3,8 @@ module github.com/fortio/webscreenshot
 go 1.24
 
 require (
-	fortio.org/cli v1.11.0
-	fortio.org/log v1.17.2
+	fortio.org/cli v1.12.1
+	fortio.org/log v1.18.1
 	github.com/chromedp/chromedp v0.14.1
 )
 
@@ -17,7 +17,7 @@ require (
 	github.com/gobwas/httphead v0.1.0 // indirect
 	github.com/gobwas/pool v0.2.1 // indirect
 	github.com/gobwas/ws v1.4.0 // indirect
-	github.com/kortschak/goroutine v1.1.2 // indirect
+	github.com/kortschak/goroutine v1.1.3 // indirect
 	golang.org/x/crypto/x509roots/fallback v0.0.0-20250203165127-fa5273e46196 // indirect
 	golang.org/x/sys v0.34.0 // indirect
 )
