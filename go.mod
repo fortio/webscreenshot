@@ -5,7 +5,7 @@ go 1.24
 require (
 	fortio.org/cli v1.12.1
 	fortio.org/log v1.18.1
-	github.com/chromedp/chromedp v0.14.1
+	github.com/chromedp/chromedp v0.14.2
 )
 
 require (
