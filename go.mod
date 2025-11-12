@@ -3,8 +3,8 @@ module github.com/fortio/webscreenshot
 go 1.24
 
 require (
-	fortio.org/cli v1.12.2
-	fortio.org/log v1.18.1
+	fortio.org/cli v1.12.3
+	fortio.org/log v1.18.3
 	github.com/chromedp/chromedp v0.14.2
 )
 
